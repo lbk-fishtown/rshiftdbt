@@ -1,15 +1,13 @@
-Welcome to the dbt Labs Snowflake Demo Project! 
+Welcome to the dbt Labs Redshift Demo Project! 
 
-This dbt project is intended to showcase key Snowflake + dbt functionalities in terms of 
+This dbt project is intended to showcase key Redshift + dbt functionalities in terms of 
 workflow, modeling, and operationalizing. 
 
 ### Requirements
 In order to successfully run this project, you will need the following: 
 
-- A Snowflake account
+- A Redshift account
 - dbt Cloud account
-- Snowflake Sample Data [The TPC-H dataset that is standard with every account](https://docs.snowflake.com/en/user-guide/sample-data-tpch.html)
-- Default Snowflake warehouse named compute_wh 
 
 ### Using the demo project
 
@@ -46,4 +44,4 @@ If you have time, take a look at other aspects of the project. We have included 
 - Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
 
 ## Help out:
-This is a open source project. If you want to contribute to this project/find any issues, [interact with us on the repository](https://github.com/dbt-labs/dbt-cloud-snowflake-demo-template)
+This is a open source project. If you want to contribute to this project/find any issues, [interact with us on the repository](https://github.com/dbt-labs/dbt-cloud-Redshift-demo-template)
