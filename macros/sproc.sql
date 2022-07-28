@@ -27,7 +27,7 @@
 
 {% macro audit_proc( dt, model ) %}
 {% set sproc %}
-    INSERT INTO audit_tbl VALUES( {{ dt }}, {{ model }} )
+    INSERT INTO audit_tbl VALUES( {{ dt }}, '{{ model }}' )
 {% endset %}
 
 {% do run_query( sproc ) %}

@@ -3,7 +3,7 @@
 {{ config(
     materialized="table",
     tags="hourly",
-    pre_hook=["{{ create_proc() }}", "{{ audit_proc( 'getdate()', "stg_tpch_customers" ) }}"]
+    pre_hook=["{{ create_proc() }}", "{{ audit_proc( 'getdate()', 'stg_tpch_customers' ) }}"]
 ) }}
 
 /* This is a dbt model  which means that it fits 2 requirements:
